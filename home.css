@@ -25,7 +25,7 @@
     padding-top: 7%;
 }
 .coin h4{
-    color: rgb(118, 120, 120);
+    color: gray;
 }
 
 .btn{
@@ -34,4 +34,21 @@
     border-radius: 10px;
     padding: 7px 22px;
     font-weight: bold;
+}
+.btn-wt{
+    border: gray;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px 22px;
+    font-weight: bold;
+    color: gray;
+}
+.below-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5%;
 }
