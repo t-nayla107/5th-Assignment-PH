@@ -36,9 +36,8 @@
     font-weight: bold;
 }
 .btn-wt{
-    border: gray;
-    background-color: white;
-    border-radius: 10px;
+    background: none;
+    border-radius: 10px solid gray;
     padding: 7px 22px;
     font-weight: bold;
     color: gray;
