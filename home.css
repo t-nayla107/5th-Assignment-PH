@@ -35,13 +35,7 @@
     padding: 7px 22px;
     font-weight: bold;
 }
-.btn-wt{
-    background: none;
-    border-radius: 10px solid gray;
-    padding: 7px 22px;
-    font-weight: bold;
-    color: gray;
-}
+
 .below-navbar{
     display: flex;
     flex-direction: row;
@@ -50,4 +44,44 @@
     align-items: center;
     gap: 30px;
     padding: 5%;
+}
+.btn-wt{
+    background: none;
+    border-radius: 10px solid gray;
+    padding: 7px 22px;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+.long-btn{
+    background-color: lawngreen;
+    border: none;
+    border-radius: 10px;
+    padding: auto;
+    font-weight: bold;
+    padding: 2% 5%;
+}
+/* .card-section{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+} */
+.card{
+    margin: 2% 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.card input{
+    padding: 5px 20px;
+    margin: 10px 5px;
+}
+.coin-bdt{
+    display: flex;
+    flex-direction: row;
+}
+.input-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

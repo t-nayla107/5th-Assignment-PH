@@ -16,15 +16,104 @@
         </div>
         <div class="coin">
           <img src="assests/coin.png" alt="" />
-          <h4 id="coin-bdt">10000 BDT</h4>
+          <h4 id="coin-bdt"><span id="total-amount">5000</span> BDT</h4>
         </div>
       </div>
     </header>
     <div class="below-navbar">
       <button class="btn">Donation</button>
-      <button class="btn-wt">History</button>
+      <button class="btn-wt">
+        <a href="history.html">History</a>
+      </button>
+      <!-- <button class="btn-wt" onclick="showHistory()">History</button> -->
     </div>
-    <section></section>
+
+    <!--card section-->
+    <div class="card-section">
+      <div class="card">
+        <div><img src="assests/noakhali.png" alt="" /></div>
+        <div class="inside-card">
+          <div class="coin-bdt">
+            <img src="assests/coin.png" alt="" />
+            <h4 style="padding: 10px 8px">
+              <span id="in-amount">100</span> BDT
+            </h4>
+          </div>
+          <h3 style="padding: 8px; font-weight: bold; font-size: large">
+            Donate for Flood at Noakhali, Bangladesh
+          </h3>
+          <p style="padding: 10px; color: gray">
+            Support the flood victims in Noakhali by donating today. Your
+            contribution can provide essential supplies, food, and shelter for
+            those affected. Together, we can make a difference.
+          </p>
+          <div class="input-btn">
+            <input
+              id="donationAmount"
+              type="number"
+              placeholder="Write Donation Amount"
+            />
+            <button class="long-btn" onclick="donateNow()">Donate Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img src="assests/feni.png" alt="" /></div>
+        <div class="inside-card">
+          <div class="coin-bdt">
+            <img src="assests/coin.png" alt="" />
+            <h4 style="padding: 10px 8px">
+              <span id="in-amount">100</span> BDT
+            </h4>
+          </div>
+          <h3 style="padding: 8px; font-weight: bold; font-size: large">
+            Donate for Flood at Feni, Bangladesh
+          </h3>
+          <p style="padding: 10px; color: gray">
+            Support the flood victims in Feni by donating today. Your
+            contribution can provide essential supplies, food, and shelter for
+            those affected. Together, we can make a difference.
+          </p>
+          <div class="input-btn">
+            <input
+              id="donationAmount"
+              type="number"
+              placeholder="Write Donation Amount"
+            />
+            <button class="long-btn" onclick="donateNow()">Donate Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img src="assests/quota-protest.png" alt="" /></div>
+        <div class="inside-card">
+          <div class="coin-bdt">
+            <img src="assests/coin.png" alt="" />
+            <h4 style="padding: 10px 8px">
+              <span id="in-amount">100</span> BDT
+            </h4>
+          </div>
+          <h3 style="padding: 8px; font-weight: bold; font-size: large">
+            Donate for injured in quota protest, Bangladesh
+          </h3>
+          <p style="padding: 10px; color: gray">
+            Aid for injured people during quota protests in Bangladesh includes
+            medical care, financial support, and emergency services provided by
+            NGOs, government agencies, and local volunteers.
+          </p>
+          <div class="input-btn">
+            <input
+              id="donationAmount"
+              type="number"
+              placeholder="Write Donation Amount"
+            />
+            <button class="long-btn" onclick="donateNow()">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="flood.js"></script>
   </body>
